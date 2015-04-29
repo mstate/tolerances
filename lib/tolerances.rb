@@ -1,4 +1,4 @@
-require 'tolerance'
+require 'tolerances/tolerance'
 
 class Tolerances
 
