@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = 'Provies simple statitistics and quantiles.'
   s.required_ruby_version = '>= 2.2.0'
 
-  s.authorw            = ['Someone at NASA', 'Mike State']
+  s.authors            = ['Someone at NASA', 'Mike State']
   s.email             = 'mstate@gmail.com'
   s.homepage          = 'https://github.com/mstate/tolerances'
   # s.rubyforge_project = 'actionmailer'
