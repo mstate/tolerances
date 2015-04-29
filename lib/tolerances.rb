@@ -1,4 +1,6 @@
 require 'tolerances/tolerance'
+require 'tolerances/quantiles'
+require 'tolerances/simple_stats'
 
 class Tolerances
 
