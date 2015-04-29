@@ -1,5 +1,5 @@
 require 'scanf'
-require 'quantiles'
+# require 'quantiles'
 
 class Tolerance
 
@@ -23,7 +23,7 @@ class Tolerance
   attr_reader :type, :quantile, :format, :tag
   attr_accessor :sample_index
 
-  def initialize( center, halfwidth, options={} ) 
+  def initialize( center, halfwidth, options={} )
     @center, @halfwidth = center.to_f, halfwidth.to_f
     set_options DEFAULTS.merge(options)
   end
@@ -75,7 +75,7 @@ class Tolerance
   def set_type( type )
     case type
     when 'o' then :order
-    when '%' then :percent 
+    when '%' then :percent
     when nil then DEFAULTS[:type]
     when :raw,:order,:percent then type
     else
