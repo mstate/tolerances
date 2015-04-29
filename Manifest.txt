@@ -1,0 +1,13 @@
+History.txt
+License.txt
+Manifest.txt
+README.txt
+Rakefile
+lib/quantiles.rb
+lib/simple_stats.rb
+lib/tolerance.rb
+lib/tolerances.rb
+test/test_quantiles.rb
+test/test_simple_stats.rb
+test/test_tolerance.rb
+test/test_tolerances.rb
